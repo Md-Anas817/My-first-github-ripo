@@ -9,6 +9,10 @@
             display: block;
             margin: 10px;
         }
+        fieldset{
+            margin: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -27,6 +31,48 @@
                     Your Email:
                     <input type="email" placeholder="email">
                 </label>
+
+                <label for="">Phone No- :
+                    <input type="number" placeholder="phone number">
+                </label>
+
+                <fieldset>
+                    <legend>Select One Pitha</legend>
+                    <label for="">
+                        <input type="radio" name="pitha">Chitoi phita
+                    </label>
+                    <label for="">
+                        <input type="radio" name="pitha">Bapa phitha
+                    </label>
+                    <label for="">
+                        <input type="radio" name="pitha">Pori
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Select one or more Vorta
+                    </legend>
+                    <label for="">
+                        <input type="checkbox" name="vorta">Sorisa
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="vorta">Shutki
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="vorta">Chili
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Instruction</legend>
+                    <textarea name="" id="" rows="10" cols="50" placeholder="Text please"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
 
 
             </form>
